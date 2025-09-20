@@ -1,0 +1,42 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.navbar {
+    background-color: #003366 !important;
+    font-family: 'Playfair Display', serif;
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    transition: transform .2s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.card-body a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.display-4 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #003366;
+}
